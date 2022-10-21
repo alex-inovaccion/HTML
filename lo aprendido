@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicios html</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <p>Llene el siguiente formulario con sus datos de contacto.</p><br>
+        <h2>formulario de contacto.</h2><br>
+        <form action="/action.js" id="formulario de contancto" method="post" autocomplete="on">
+        <label for="Nombres">Nombre:  </label>
+        <input type="text" id="Nombres" name="Nombres"><br>
+        <label for="ApellidoP">Apellido paterno: </label>
+        <input type="text" id="ApellidoP" name="ApellidoP"><br>
+        <label for="ApellidoM">Apellido Materno:</label>
+        <input type="text" id="ApellidoM" name="ApellidoM"><br>
+        <label for="celular">Numero de celular:</label>
+        <input type="tel" id="celular" name="celular" maxlength="10" minlength="10"><br>
+        <label for="archivo"></label>
+        <p>Suba una foto de su INE por ambos lados</p>
+        <input type="file" id="archivo" name="archivo" multiple >
+        <input type="submit">
+        </form>
+        
+    </body>
+</html>
